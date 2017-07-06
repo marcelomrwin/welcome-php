@@ -198,7 +198,7 @@ line-height: 1.4;
 
 <section class='container'>
           <hgroup>
-            <h1>PHP application on OpenShift! V1 Server: $_SERVER['SERVER_ADDR']</h1>
+            <?php <h1>PHP application on OpenShift! V1 Server: echo $_SERVER['SERVER_ADDR']</h1>?>
           </hgroup>
 
 <?php
