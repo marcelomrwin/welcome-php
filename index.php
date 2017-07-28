@@ -201,7 +201,7 @@ line-height: 1.4;
             <?php 
                   echo "<h1>PHP application on OpenShift! V4</h1>";
                   echo $_SERVER['SERVER_ADDR']
-            ?>
+            
           </hgroup>
 
 <?php
